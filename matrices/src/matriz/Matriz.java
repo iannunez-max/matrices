@@ -31,6 +31,7 @@ class Matriz {
         datos = new int[filas][columnas];
     }
 
+    /* Se reserva el espacio en la memoria
     public int getFilas() {
         return filas;
     }
@@ -39,10 +40,12 @@ class Matriz {
         return columnas;
     }
 
+   /* Donde se lee el número
     public int getValor(int i, int j) {
         return datos[i][j];
     }
 
+  /* Donde se guarda
     public void setValor(int i, int j, int valor) {
         datos[i][j] = valor;
     }
